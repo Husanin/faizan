@@ -1,0 +1,23 @@
+.des-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.img-container{
+    width: 50%;
+    padding: 60px;
+    padding-left: 200px;
+}
+.content-area{
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 400px;
+}
+.content-area h1{
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.content-area p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}

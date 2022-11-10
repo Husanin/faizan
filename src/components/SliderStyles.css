@@ -1,0 +1,16 @@
+.carousel-slider{
+    border-bottom: 2px solid greenyellow;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+.title{
+    margin-left: 70%;
+    margin-top: -250px;
+    color: blue;
+}
+.description{
+    float: right;
+    color: blue;
+}

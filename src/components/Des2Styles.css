@@ -1,0 +1,29 @@
+.des2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background: #ABCD52;
+}
+.des2-contant{
+    width: 60%;
+    padding: 80px 200px;
+}
+.des2-contant h2{
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.des2-contant p{
+    font-size: large;
+    font-weight: 600;
+}
+.des2-button{
+    padding: 80px;
+}
+.des2-button button{
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 600;
+}

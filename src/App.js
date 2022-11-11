@@ -5,6 +5,7 @@ import Des2 from './components/Des2';
 import Description from './components/Description';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
+import Card2 from './components/Card2';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <CardSection />
       <Description />
       <Des2 />
+      <Card2 />
     </div>
   );
 }

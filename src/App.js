@@ -8,6 +8,7 @@ import Slider from './components/Slider';
 import Card2 from './components/Card2';
 import BlueSection from './components/BlueSection';
 import GreenSection from './components/GreenSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Card2 />
       <BlueSection />
       <GreenSection />
+      <Footer />
     </div>
   );
 }

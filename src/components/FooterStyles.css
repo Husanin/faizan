@@ -1,0 +1,22 @@
+.footer-container{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    border-bottom: 3px solid mediumblue;
+
+}
+.footer-container img{
+    padding-top: 60px;
+    width: 600px;
+    height: 350px;
+}
+.whatsapp-icon{
+    font-size: 30px;
+   color: #C6D935;
+   padding-right: 8px;
+}
+.footer-nomber{
+    font-size: 30px;
+    color: #C6D935;
+    font-weight: 600;
+}

@@ -2,5 +2,22 @@
     width: 100%;
     height: 550px;
     padding-top: 50px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid mediumblue;
+}
+.green-inner-container{
+    width: 100%;
+     height: 450px;
+    background-image: url('../assets/green.jpg');
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.green-inner-container h1{
     padding-bottom: 50px;
+    font-size: 40px;
+}
+.green-inner-container p{
+    padding: 0 150px 40px 150px;
+    font-size: 23px;
 }

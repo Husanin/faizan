@@ -1,7 +1,7 @@
 .card2-container{
     width: 100%;
-    height: 400px;
-    padding-top: 50px;
+    height: 450px;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
     
@@ -25,6 +25,6 @@
 }
 .img-card2{
     width: 240px;
-    height: 220px;
+    height: 240px;
   
 }

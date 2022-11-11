@@ -6,6 +6,8 @@ import Description from './components/Description';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Card2 from './components/Card2';
+import BlueSection from './components/BlueSection';
+import GreenSection from './components/GreenSection';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Description />
       <Des2 />
       <Card2 />
+      <BlueSection />
+      <GreenSection />
     </div>
   );
 }

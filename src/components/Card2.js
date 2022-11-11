@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card2Styles.css'
 import Card from 'react-bootstrap/Card';
-import first from '../assets/card1.png'
+import first from '../assets/card5.png'
 import second from '../assets/card2.jpg'
 import third from '../assets/card3.jpg'
 import four from '../assets/card4.png'

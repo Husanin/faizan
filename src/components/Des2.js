@@ -16,5 +16,5 @@ const Des2 = () => {
     </div>
   )
 }
-
+ 
 export default Des2

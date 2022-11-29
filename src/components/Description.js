@@ -8,7 +8,7 @@ const Description = () => {
     <div className='des-container' >
         <div className='img-container'>
             <img src={desc} alt="" />
-        </div>
+        </div> 
         <div className='content-area'>
             <h1> WELCOME TO <br/> FAIZAN-E-QURAN! </h1>
             <p>We offer Quranic guidance for childrens and adults, men and women,
@@ -18,7 +18,7 @@ const Description = () => {
                   <Button variant="primary">your own timetable</Button>
         </div> 
     </div>
-  )
+  ) 
 }
 
 export default Description

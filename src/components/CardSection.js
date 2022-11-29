@@ -5,7 +5,7 @@ import first from '../assets/1.jpg'
 import second from '../assets/2.png'
 import third from '../assets/3.png'
 import four from '../assets/4.jpg'
-
+ 
 const CardSection = () => {
   return (
     <div className='card-container'>

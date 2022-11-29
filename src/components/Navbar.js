@@ -11,14 +11,10 @@ const Navbar = () => {
         <ul className='nav-right'>
             <li>Home</li>
             <li>About Us</li>
-            <li>FAQ</li>
-            <li>Quran-Pak</li>
-            <li>Fee</li>
-            <li>Course</li> 
-            <li>Free Trial</li>
+            <li>Contact Us</li>
         </ul>
     </div>
   )
 }
-
+ 
 export default Navbar

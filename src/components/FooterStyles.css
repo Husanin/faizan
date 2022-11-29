@@ -20,3 +20,10 @@
     color: #C6D935;
     font-weight: 600;
 }
+@media screen and (max-width:650px) {
+    .footer-container img{
+        padding-top: 60px;
+        width: 350px;
+        height: 250px;
+    }
+}

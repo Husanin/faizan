@@ -6,11 +6,23 @@ img{
     height: 400px;
 }
 .title{
-    margin-left: 70%;
+    margin-left: 60%;
     margin-top: -250px;
     color: blue;
 }
 .description{
+    margin-left: 50%;
     float: right;
     color: blue;
+}
+
+@media screen and (max-width:830px) {
+    .title{
+        margin-left: 40%;
+    }
+    .description{
+        margin-left: 30%;
+        float: right;
+        color: blue;
+    }
 }

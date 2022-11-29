@@ -9,6 +9,7 @@ import Card2 from './components/Card2';
 import BlueSection from './components/BlueSection';
 import GreenSection from './components/GreenSection';
 import Footer from './components/Footer';
+import Whatsapp from './components/Whatsapp';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <BlueSection />
       <GreenSection />
       <Footer />
+      {/* <Whatsapp /> */}
     </div>
   );
 }

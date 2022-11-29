@@ -1,17 +1,19 @@
 .des-container{
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     display: flex;
+    flex-wrap: wrap;
 }
 .img-container{
     width: 50%;
     padding: 60px;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 .content-area{
     width: 50%;
     padding-top: 100px;
-    padding-right: 400px;
+    padding-right: 250px;
+    padding-left: 80px;
 }
 .content-area h1{
     font-weight: 900;
@@ -20,4 +22,52 @@
 .content-area p{
     font-size: 20px;
     padding-bottom: 20px;
+}
+@media screen and (max-width:1400px) {
+    .img-container{
+        width: 50%;
+        padding: 30px;
+        padding-top: 70px;
+        padding-bottom: 0;
+     
+    }
+    .content-area{
+        width:50%;
+        padding-top: 100px;
+        padding-right: 150px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        
+    }
+}
+
+    @media screen and (max-width:1000px) {
+        .img-container{
+            width: 50%;
+            padding: 30px;
+            padding-top: 70px;
+            padding-bottom: 0;
+         
+        }
+        .content-area{
+            width:50%;
+            padding: 30px;
+            padding-top: 70px;
+            
+        }
+}
+@media screen and (max-width:600px) {
+    .img-container{
+        width: 100%;
+        padding: 20px;
+        padding-top: 0px;
+        padding-bottom: 0;
+     
+    }
+    .content-area{
+        width: 100%;
+        padding: 20px;
+        padding-top: 0;
+        
+    }
 }

@@ -18,7 +18,7 @@ const BlueSection = () => {
         <h3>Ali Husnain</h3>
       <h5>Content here, content here</h5>
     </div>
-  );
+  ); 
 };
 
 export default BlueSection;

@@ -17,6 +17,6 @@ const GreenSection = () => {
         </div>
 
   )
-}
+} 
 
 export default GreenSection

@@ -6,7 +6,7 @@ import second from '../assets/card2.jpg'
 import third from '../assets/card3.jpg'
 import four from '../assets/card4.png'
 
-
+ 
 const Card2 = () => {
   return (
     <div className='card2-container'>

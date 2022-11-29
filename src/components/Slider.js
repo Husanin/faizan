@@ -8,7 +8,7 @@ import './SliderStyles.css'
 
 function Slider() {
   return (
-    <div className='carousel-slider'>
+    <div className='carousel-slider'> 
     <Carousel>
       <Carousel.Item>
         <img

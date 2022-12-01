@@ -1,31 +1,18 @@
+import React from "react";
+import { Routes,Route } from "react-router-dom";
+import Home from "./components/routes/Home";
+import About from "./components/routes/About";
+import Form from "./components/routes/Form";
 
-import CardSection from './components/CardSection';
-import Contact from './components/Contact';
-import Des2 from './components/Des2';
-import Description from './components/Description';
-import Navbar from './components/Navbar';
-import Slider from './components/Slider';
-import Card2 from './components/Card2';
-import BlueSection from './components/BlueSection';
-import GreenSection from './components/GreenSection';
-import Footer from './components/Footer';
-import Whatsapp from './components/Whatsapp';
 
 function App() {
   return (
-    <div>
-      <Contact />
-      <Navbar />
-      <Slider />
-      <CardSection />
-      <Description />
-      <Des2 />
-      <Card2 />
-      <BlueSection />
-      <GreenSection />
-      <Footer />
-      {/* <Whatsapp /> */}
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Form />} />
+
+    </Routes>
   );
 }
 
